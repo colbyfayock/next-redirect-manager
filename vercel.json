@@ -1,3 +1,9 @@
 {
-  "redirects": []
+  "redirects": [
+    {
+      "source": "/spacejelly",
+      "destination": "https://spacejelly.dev",
+      "permanent": false
+    }
+  ]
 }
