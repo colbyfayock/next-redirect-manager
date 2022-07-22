@@ -1,0 +1,115 @@
+@import "@styles/settings/__settings";
+
+.header {
+  font-size: 2em;
+}
+
+.homeNewRedirectContainer {
+
+  background-color: $color-green-100;
+  padding: 1.2em 1.4em;
+  margin-bottom: 1.5em;
+
+  p {
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+  }
+
+}
+
+.newRedirectNote {
+  font-size: .8em;
+}
+
+.homeActionsContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.search {
+
+  display: flex;
+  align-items: center;
+
+  label {
+    margin-right: .4em;
+  }
+
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.actionButton {
+  font-size: .9em;
+}
+
+
+.homeContentContainer {
+
+  button {
+    margin: 0 .2em;
+  }
+
+}
+
+.tableActionButton {
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 2em;
+  height: 2em;
+  color: $color-gray-500;
+  background-color: transparent;
+  padding: 0;
+  border-radius: 50%;
+
+  &:hover {
+    color: $color-red-500;
+    background-color: transparent;
+  }
+
+  &:disabled {
+    color: $color-gray-300;
+  }
+
+}
+
+.tableLoading {
+  text-align: center;
+}
+
+.tableNote {
+  font-size: .8em;
+}
+
+.redirectSourceLinkCopy {
+  margin-right: .4em;
+}
+
+.iconCommitted {
+  color: $color-yellow-500;
+}
+
+.iconDeployed {
+  color: $color-green-600;
+}
+
+.iconDeleted {
+  color: $color-red-500;
+}

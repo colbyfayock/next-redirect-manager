@@ -1,0 +1,29 @@
+@import "@styles/settings/__settings";
+
+.copyText {
+  position: relative;
+  display: inline-block;
+}
+
+.copyTextCopied {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2em;
+  height: 2em;
+  font-size: .7em;
+  background-color: $color-gray-600;
+  border-radius: 50%;
+  margin: auto;
+  cursor: pointer;
+
+  [data-text-copied="true"] & {
+    background-color: $color-green-500;
+  }
+
+  svg {
+    color: $color-gray-50;
+  }
+
+}

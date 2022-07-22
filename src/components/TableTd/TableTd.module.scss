@@ -1,0 +1,16 @@
+.tableTd {
+
+  &[data-align="center"] {
+
+    vertical-align: middle;
+    text-align: center;
+
+    p {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+  }
+
+}

@@ -1,0 +1,60 @@
+@import "@styles/settings/__settings";
+
+.button {
+
+  display: inline-block;
+  font-size: 1em;
+  color: white;
+  background-color: $color-button-background;
+  border: 0;
+  font-weight: $font-weight-black;
+  font-family: inherit;
+  text-transform: uppercase;
+  padding: .6em 1em;
+  border-radius: $border-radius-small;
+  cursor: pointer;
+
+  &:hover {
+    background-color: lighten($color-button-background, 10);
+  }
+
+  &:disabled {
+    color: rgba(white, .6);
+  }
+
+  &[data-color="gray"] {
+
+    color: white;
+    background-color: $color-gray-500;
+
+    &:hover {
+      background-color: lighten($color-gray-500, 5);
+    }
+
+    &:disabled {
+      color: rgba(white, .6);
+    }
+
+  }
+
+  &[data-color="blue"] {
+
+    color: white;
+    background-color: $color-blue-500;
+
+    &:hover {
+      background-color: lighten($color-blue-500, 5);
+    }
+
+    &:disabled {
+      color: rgba(white, .6);
+    }
+
+  }
+
+  &[data-display="full"] {
+    display: block;
+    width: 100%;
+  }
+
+}

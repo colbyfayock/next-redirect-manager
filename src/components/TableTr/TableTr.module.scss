@@ -1,0 +1,9 @@
+@import "@styles/settings/__settings";
+
+.tableTr {
+
+  &:nth-child(even) {
+    background-color: $color-gray-50;
+  }
+
+}

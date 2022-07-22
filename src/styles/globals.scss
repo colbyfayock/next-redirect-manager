@@ -1,0 +1,40 @@
+@import "@styles/settings/__settings";
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: $font-family;
+  font-weight: $font-weight-regular;
+}
+
+a {
+  color: $color-blue-700;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+[type="text"],
+[type="search"] {
+  border: solid 1px $color-gray-200;
+  border-radius: .2em;
+  padding: .5em .7em;
+}
+
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}

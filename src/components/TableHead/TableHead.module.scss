@@ -1,0 +1,13 @@
+@import "@styles/settings/__settings";
+
+.tableHead {
+
+  font-weight: bold;
+
+  td {
+    vertical-align: top;
+    padding: 1em .5em;
+    border-bottom: solid 1px $color-gray-200;
+  }
+
+}
