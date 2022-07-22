@@ -7,6 +7,8 @@ Dashboard for adding, removing, and viewing Vercel redirects.
 - [🧐 What is this?](#-what-is-this)
 - [🧰 Configuration](#-configuration)
 
+<img width="666" alt="App UI with Redirect Example" src="https://user-images.githubusercontent.com/1045274/180498180-3a3e2e07-71a3-4350-bc20-513a4b0e73d5.png">
+
 ## ⚡️ Quick Start
 
 Deploy this project to Vercel with your configured environment variables.
