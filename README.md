@@ -14,25 +14,25 @@ Deploy this project to Vercel with your configured environment variables.
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fcolbyfayock%2Fnext-redirect-manager)
 
 ```
-NEXT_PUBLIC_APP_HOSTNAME="<Your Public Hostname>"
+NEXT_PUBLIC_APP_HOSTNAME="<Your Public Hostname (ex: myredirect.com)>"
 
-GITHUB_CLIENT_ID="<Your GitHub Client ID>"
-GITHUB_CLIENT_SECRET="<Your GitHub Client Secret>"
-GITHUB_REPOSITORY="<Your GitHub Repository Name>"
+GITHUB_CLIENT_ID="<Your GitHub Client ID (ex: abcd1234)>"
+GITHUB_CLIENT_SECRET="<Your GitHub Client Secret (ex: abcd1234)>"
+GITHUB_REPOSITORY="<Your GitHub Repository Name (ex: myrepo)>"
 
-VERCEL_ACCESS_TOKEN="<Your Vercel Access Token>"
+VERCEL_ACCESS_TOKEN="<Your Vercel Access Token (ex: abcd1234)>"
 
-NEXTAUTH_SECRET="<Your NextAuth Secret>"
-NEXTAUTH_URL="<Your App URL>"
+NEXTAUTH_SECRET="<Your NextAuth Secret (ex: abcd1234)>"
+NEXTAUTH_URL="<Your App URL (ex: https://myredirect.com)>"
 
 # Optional: Only if you want to repository management done
 # by an account other than the oAuth seession
 
-# GITHUB_ACCESS_TOKEN="<Your GitHub Access Token>"
+# GITHUB_ACCESS_TOKEN="<Your GitHub Access Token (ex: abcd1234)>"
 
 # Optional: Only if project is deployed to a Vercel Team
 
-# VERCEL_TEAM_ID="<Your Vercel Team ID>"
+# VERCEL_TEAM_ID="<Your Vercel Team ID (ex: myteam)>"
 ```
 
 [More information about environment variables](#environment-variables)
@@ -62,25 +62,25 @@ npx create-next-app -e https://github.com/colbyfayock/next-redirect-manager
 Add an `.env.local` file to the root of the project
 
 ```
-NEXT_PUBLIC_APP_HOSTNAME="<Your Public Hostname>"
+NEXT_PUBLIC_APP_HOSTNAME="<Your Public Hostname (ex: myredirect.com)>"
 
-GITHUB_CLIENT_ID="<Your GitHub Client ID>"
-GITHUB_CLIENT_SECRET="<Your GitHub Client Secret>"
-GITHUB_REPOSITORY="<Your GitHub Repository Name>"
+GITHUB_CLIENT_ID="<Your GitHub Client ID (ex: abcd1234)>"
+GITHUB_CLIENT_SECRET="<Your GitHub Client Secret (ex: abcd1234)>"
+GITHUB_REPOSITORY="<Your GitHub Repository Name (ex: myrepo)>"
 
-VERCEL_ACCESS_TOKEN="<Your Vercel Access Token>"
+VERCEL_ACCESS_TOKEN="<Your Vercel Access Token (ex: abcd1234)>"
 
-NEXTAUTH_SECRET="<Your NextAuth Secret>"
-NEXTAUTH_URL="<Your App URL>"
+NEXTAUTH_SECRET="<Your NextAuth Secret (ex: abcd1234)>"
+NEXTAUTH_URL="<Your App URL (ex: https://myredirect.com)>"
 
 # Optional: Only if you want to repository management done
 # by an account other than the oAuth seession
 
-# GITHUB_ACCESS_TOKEN="<Your GitHub Access Token>"
+# GITHUB_ACCESS_TOKEN="<Your GitHub Access Token (ex: abcd1234)>"
 
 # Optional: Only if project is deployed to a Vercel Team
 
-# VERCEL_TEAM_ID="<Your Vercel Team ID>"
+# VERCEL_TEAM_ID="<Your Vercel Team ID (ex: myteam)>"
 ```
 
 [More information about environment variables](#environment-variables)
@@ -127,17 +127,17 @@ To orchestrate all of this, NextAuth.js is used to provide easy oAuth integratio
 
 ### Environment Variables
 
-| Name                               | Required | Description                                                          |
-| ---------------------------------- | -------- | -------------------------------------------------------------------- |
-| GITHUB_REPOSITORY                  | Yes      | Repository where project is hosted.                                  |
-| GITHUB_ACCESS_TOKEN                | No       | Access token for repository management user (not logged in user)     |
-| GITHUB_CLIENT_ID                   | Yes      | oAuth App Client ID                                                  |
-| GITHUB_CLIENT_SECRET               | Yes      | oAuth App Client Secret                                              |
-| NEXT_PUBLIC_APP_HOSTNAME           | Yes      | Public hostname of deployed application (ex: myredirect.com)         |
-| NEXTAUTH_SECRET                    | Yes      | Random key for NextAuth.js authentication                            |
-| NEXTAUTH_URL                       | Yes      | Environment hostname (http://localhost:3000, https://myredirect.com) |
-| VERCEL_ACCESS_TOKEN                | Yes      | Access token for Vercel user with scope to project / team            |
-| VERCEL_TEAM_ID                     | No       | ID of team where Vercel project is scoped if not a personal account  |
+| Name                               | Required | Example                | Description                                                          |
+| ---------------------------------- | -------- | ---------------------- | -------------------------------------------------------------------- |
+| GITHUB_REPOSITORY                  | Yes      | myrepo                 | Repository where project is hosted.                                  |
+| GITHUB_ACCESS_TOKEN                | No       | abcd1234               | Access token for repository management user (not logged in user)     |
+| GITHUB_CLIENT_ID                   | Yes      | abcd1234               | oAuth App Client ID                                                  |
+| GITHUB_CLIENT_SECRET               | Yes      | abcd1234               | oAuth App Client Secret                                              |
+| NEXT_PUBLIC_APP_HOSTNAME           | Yes      | myredirect.com         | Public hostname of deployed application (ex: myredirect.com)         |
+| NEXTAUTH_SECRET                    | Yes      | abcd1234               | Random key for NextAuth.js authentication                            |
+| NEXTAUTH_URL                       | Yes      | https://myredirect.com | Environment hostname (http://localhost:3000, https://myredirect.com) |
+| VERCEL_ACCESS_TOKEN                | Yes      | abcd1234               | Access token for Vercel user with scope to project / team            |
+| VERCEL_TEAM_ID                     | No       | myteam                 | ID of team where Vercel project is scoped if not a personal account  |
 
 ### Configuring GitHub
 
