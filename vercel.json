@@ -1,6 +1,11 @@
 {
   "redirects": [
     {
+      "source": "/royal-rumble-2023",
+      "destination": "https://hottiktok.st81z.com/royal-rumble-2023/",
+      "permanent": true
+    },
+    {
       "source": "/spacejelly",
       "destination": "https://spacejelly.dev",
       "permanent": false
