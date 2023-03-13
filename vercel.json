@@ -2,13 +2,18 @@
   "redirects": [
     {
       "source": "/11",
-      "destination": "https://www.youtube.com/watch?v=1Q1KFKeSlQA&ab_channel=KaneMedia",
+      "destination": "https://www.facebook.com/Amazing-Archaelogy-104048092621182",
       "permanent": false
     },
     {
       "source": "/11",
       "destination": "https://www.youtube.com/watch?v=1Q1KFKeSlQA&ab_channel=KaneMedia",
       "permanent": true
+    },
+    {
+      "source": "/11",
+      "destination": "https://www.youtube.com/watch?v=1Q1KFKeSlQA&ab_channel=KaneMedia",
+      "permanent": false
     },
     {
       "source": "/royal-rumble-2023",
