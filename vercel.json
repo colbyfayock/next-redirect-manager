@@ -3,22 +3,22 @@
     {
       "source": "/11",
       "destination": "https://www.facebook.com/Amazing-Archaelogy-104048092621182",
-      "permanent": true
-    },
-    {
-      "source": "/11",
-      "destination": "https://www.youtube.com/watch?v=1Q1KFKeSlQA&ab_channel=KaneMedia",
       "permanent": false
     },
     {
       "source": "/11",
       "destination": "https://www.youtube.com/watch?v=1Q1KFKeSlQA&ab_channel=KaneMedia",
       "permanent": true
+    },
+    {
+      "source": "/11",
+      "destination": "https://www.youtube.com/watch?v=1Q1KFKeSlQA&ab_channel=KaneMedia",
+      "permanent": false
     },
     {
       "source": "/11",
       "destination": "https://www.facebook.com/Amazing-Archaelogy-104048092621182",
-      "permanent": false
+      "permanent": true
     },
     {
       "source": "/90",
@@ -28,15 +28,20 @@
     {
       "source": "/99999",
       "destination": "https://www.youtube.com/watch?v=1Q1KFKeSlQA&ab_channel=KaneMedia",
-      "permanent": false
+      "permanent": true
     },
     {
       "source": "/99999",
       "destination": "https://www.youtube.com/watch?v=1Q1KFKeSlQA&ab_channel=KaneMedia",
-      "permanent": true
+      "permanent": false
     },
     {
       "source": "/999990",
+      "destination": "https://www.youtube.com/watch?v=1Q1KFKeSlQA&ab_channel=KaneMedia",
+      "permanent": true
+    },
+    {
+      "source": "/lovedog",
       "destination": "https://www.youtube.com/watch?v=1Q1KFKeSlQA&ab_channel=KaneMedia",
       "permanent": true
     },
