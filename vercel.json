@@ -1,8 +1,18 @@
 {
   "redirects": [
     {
+      "source": "/",
+      "destination": "",
+      "permanent": false
+    },
+    {
       "source": "/11",
       "destination": "https://www.facebook.com/Amazing-Archaelogy-104048092621182",
+      "permanent": true
+    },
+    {
+      "source": "/11",
+      "destination": "https://www.youtube.com/watch?v=1Q1KFKeSlQA&ab_channel=KaneMedia",
       "permanent": false
     },
     {
@@ -12,13 +22,8 @@
     },
     {
       "source": "/11",
-      "destination": "https://www.youtube.com/watch?v=1Q1KFKeSlQA&ab_channel=KaneMedia",
-      "permanent": false
-    },
-    {
-      "source": "/11",
       "destination": "https://www.facebook.com/Amazing-Archaelogy-104048092621182",
-      "permanent": true
+      "permanent": false
     },
     {
       "source": "/90",
@@ -28,12 +33,12 @@
     {
       "source": "/99999",
       "destination": "https://www.youtube.com/watch?v=1Q1KFKeSlQA&ab_channel=KaneMedia",
-      "permanent": true
+      "permanent": false
     },
     {
       "source": "/99999",
       "destination": "https://www.youtube.com/watch?v=1Q1KFKeSlQA&ab_channel=KaneMedia",
-      "permanent": false
+      "permanent": true
     },
     {
       "source": "/999990",
